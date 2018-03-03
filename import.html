@@ -1,0 +1,107 @@
+
+<div id="info-jq" class="about">
+        <h2>JQuery</h2>
+        <p class="common-cont">jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with 
+        an easy-to-use API that works across a multitude of browsers.</p>
+</div>
+<div id="download">
+        <h3>There are several ways to start using jQuery on your web site. You can:</h3>
+        <ul class="download">
+                <li>Download the jQuery library from <a href="http://jquery.com/download/">jQuery.com</a></li>
+                <li>Include jQuery from a CDN, like Google</li>
+        </ul>             
+</div>
+<div id="ftr"  class="feature">
+        <h2>Features..!!</h2>
+        <ul>
+                   <li><b>DOM manipulation</b>  − The jQuery made it easy to select DOM elements, negotiate them and modifying their content by using cross-browser open source selector engine called Sizzle.</li>    
+                   <li><b> Event handling </b>− The jQuery offers an elegant way to capture a wide variety of events, such as a user clicking on a link, without the need to clutter the HTML code itself with event handlers.</li>                        
+                    <li><b>AJAX Support </b> − The jQuery helps you a lot to develop a responsive and featurerich site using AJAX technology.</li>
+                   <li><b>Animations</b>  − The jQuery comes with plenty of built-in animation effects which you can use in your websites.</li>                        
+                   <li><b>Lightweight</b> − The jQuery is very lightweight library - about 19KB in size (Minified and gzipped)</li>                        
+                   <li><b>Cross Browser Support</b> − The jQuery has cross-browser support, and works well in IE 6.0+, FF 2.0+, Safari 3.0+, Chrome and Opera 9.0+</li>                        
+        </ul>
+</div>
+<div id="clk" class="event-demo">
+        <div class="box">
+                <div class="test-content">
+                </div>
+        </div>
+        <div class="event-cont">  
+                <p>The click event occurs when an element is clicked.
+                        
+                        The click() method triggers the click event, or attaches a function to run when a click event occurs.</p>
+        </div>
+</div>
+
+<div id="ready" class="event-info">
+        <p>The ready() method offers a way to run JavaScript code as soon as the page's Document Object Model (DOM) becomes safe to manipulate. This will often be a good time to perform tasks that are needed before the user views or interacts with the page, for example to add event handlers and initialize plugins. When multiple functions are
+        added via successive calls to this method, they run when the DOM is ready in the order in which they are added. </p>
+</div>
+<div id="blurFocus">
+        Name: <input type="text" name="fullname"><br>
+        Email: <input type="text" name="email">
+        <p>The blur event occurs when an element loses focus.The blur() method triggers the blur event, or attaches a function to run when a blur event occurs. <br>
+                The focus event occurs when an element gets focus (when selected by a mouse click or by "tab-navigating" to it).
+                
+                The focus() method triggers the focus event, or attaches a function to run when a focus event occurs.</p>
+</div>
+<div id="mouse" class="ms-event">                
+                <p>The <b>mouseover</b>event triggers when the mouse pointer enters the div element, and its child elements.</p>
+                <p>The <b>mouseenter</b> event is only triggered when the mouse pointer enters the div element. </p>
+                <p>The <b>onmousemove</b>  event triggers every time the mouse pointer is moved over the div element.</p>
+                <p>The <b>mouseleave</b>  event only occurs when the mouse pointer is moved out of the div element.</p> 
+                <p>The <b>onmouseout</b>  event occurs when the mouse pointer is moved out of the div element, and when it leaves its child elements</p> 
+                <div class="over">
+                        <h3 class="inner">Mouseover event triggered: <span></span></h3>
+                </div>
+                <div class="enter">
+                        <h3 class="inner">Mouseenter event triggered: <span></span></h3>
+                </div>
+                <div class="move">
+                        <h3 class="inner">Mousemove event triggered: <span></span></h3>
+                </div>
+                <div class="leave">
+                        <h3 class="inner">Mouseleave event triggered: <span></span></h3>
+                </div>
+                <div class="out">
+                        <h3 class="inner">Mouseout event triggered: <span></span></h3>
+                </div>
+</div>
+<div id="keyevt" class="keyevent" >
+        <div class="kpress">
+                <h3>Keypress</h3>
+                <p class="k-evt">The keypress event fires as soon as a key is pressed. When modifier keys are pressed (shift, ctrl, alt, etc.), the event will not fire. The modifier keys cause a keydown event, but not a keypress event.</p>
+                <input type="text" id="kpress" placeholder="Enter your name">
+                
+        </div>
+        <div class="kdown">
+                        <h3>keydown</h3>
+                <p class="k-evt">The keydown event fires as soon as the key is pressed down. This behavior is similar to the keypress event, but it also registers modifier keys.  is attached to the input element. When the key is pressed, the event fires to display an alert box.</p>
+                <input type="text" id="kdwn" placeholder="Enter your name">
+        </div>
+        <div class="kup">
+                        <h3>Keyup</h3>
+                <p class="k-evt">The keyup event fires when the key is pressed down and then released. It will not fire until the key is released.</p>
+                <input type="text" id="kup" placeholder="Enter your name">
+        </div>
+</div>
+<div id="on">
+        <p>The on() method attaches one or more event handlers for the selected elements and child elements.             
+        <p>As of jQuery version 1.7, the on() method is the new replacement for the bind(), live() and delegate() methods.</p>                        
+       <p>Tip: To remove event handlers, use the off() method.</p>                  
+       <p>Tip: To attach an event that only runs once and then removes itself, use the one() method.</p> 
+</div>
+<div id="off">
+                <p>The off() method is most often used to remove event handlers attached with the on() method.</p>               
+               <p> As of jQuery version 1.7, the off() method is the new replacement for the unbind(), die() and undelegate() methods.</p> 
+                
+               <p>Note: To remove specific event handlers, the selector string must match the one passed to the on() method, when the event handler was attached. </p> 
+                
+              <p>Tip: To attach an event that only runs once and then removes itself, use the one() method.</p>  
+</div>
+<div id="one">
+        <p>The one() method attaches one or more event handlers for the selected elements, and specifies a function to run when the event occurs.    
+        When using the one() method, the event handler function is only run ONCE for each element.</p> 
+        <p> Click event will execute only for once for element</p>
+</div>
