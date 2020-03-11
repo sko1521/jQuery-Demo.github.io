@@ -179,3 +179,9 @@ p{
 .k-evt{
     height:201px;
 }
+
+.author{
+    font-size: small;
+    bottom: 0;
+    font-style: italic;
+}
